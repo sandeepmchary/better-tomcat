@@ -2,8 +2,8 @@
 - hosts: all
   become: yes
   vars:
-    - username: "admin"
-    - password: "password"
+    - tomcat_username: "admin"
+    - tomcat_password: "password"
   tasks:
   - name : Install tomcat
     package:
