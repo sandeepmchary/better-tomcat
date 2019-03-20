@@ -1,6 +1,9 @@
 ---
 - hosts: all
   become: yes
+  vars:
+    - username: "admin"
+    - password: "password"
   tasks:
   - name : Install tomcat
     package:
@@ -20,7 +23,9 @@
       url: https://github.com/sandeepmchary/better-tomcat/blob/master/gameoflife.war
       dest: "{{ destination }}"
   - name: user management
-    
+    template:
+      src: user-management.xml.j2
+      dest: "{{ user-management }}"
   - name:
   handlers:
   - name: restart tomcat
