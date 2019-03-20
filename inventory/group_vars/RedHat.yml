@@ -3,5 +3,6 @@ pack_name: tomcat
 additional_packages:
 - tomcat-webapps
 - tomcat-admin-webapps
-destination: /usr/share/tomcat/webapps/gameoflife.war
-user-management: /usr/share/tomcat/conf/tomcat-users.xml
+- destination: /usr/share/tomcat/webapps/gameoflife.war
+
+- user-management: /usr/share/tomcat/conf/tomcat-users.xml
