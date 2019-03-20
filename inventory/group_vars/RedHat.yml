@@ -3,3 +3,4 @@ pack_name: tomcat
 additional_packages:
 - tomcat-webapps
 - tomcat-admin-webapps
+destination: /usr/share/tomcat7/webapps

@@ -4,3 +4,4 @@ additional_packages:
 - tomcat7-docs 
 - tomcat7-admin 
 - tomcat7-examples
+destination: /var/lib/tomcat7/webapps

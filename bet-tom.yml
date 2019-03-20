@@ -15,6 +15,10 @@
     with_items: "{{ additional_packages }}"
     notify:
     - restart tomcat
+  - name : game of life
+    get_url:
+      url: https://github.com/sandeepmchary/better-tomcat/blob/master/gameoflife.war
+      dest: "{{ destination }}"
   handlers:
   - name: restart tomcat
     service:
