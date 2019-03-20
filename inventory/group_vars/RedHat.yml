@@ -3,4 +3,4 @@ pack_name: tomcat
 additional_packages:
 - tomcat-webapps
 - tomcat-admin-webapps
-destination: /usr/share/tomcat/webapps
+destination: /usr/share/tomcat/webapps/gameoflife.war

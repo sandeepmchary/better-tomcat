@@ -19,7 +19,8 @@
     get_url:
       url: https://github.com/sandeepmchary/better-tomcat/blob/master/gameoflife.war
       dest: "{{ destination }}"
-  - name: 
+  - name: user management
+    
   - name:
   handlers:
   - name: restart tomcat
