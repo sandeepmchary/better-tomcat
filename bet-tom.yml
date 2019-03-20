@@ -19,8 +19,11 @@
     get_url:
       url: https://github.com/sandeepmchary/better-tomcat/blob/master/gameoflife.war
       dest: "{{ destination }}"
+  - name: 
+  - name:
   handlers:
   - name: restart tomcat
     service:
       name: "{{ pack_name }}"
       state: restarted
+  
