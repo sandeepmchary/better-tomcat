@@ -26,7 +26,6 @@
     template:
       src: user-management.xml.j2
       dest: "{{ user-management }}"
-  - name:
   handlers:
   - name: restart tomcat
     service:
