@@ -25,9 +25,9 @@
   - name: user management
     template:
       src: user-management.xml.j2
-      dest: "{{ user_management }}"
-      tags:
-        - tomcatusers
+      dest: "{{ management }}"
+    tags:
+      - tomcatusers
   handlers:
   - name: restart tomcat
     service:

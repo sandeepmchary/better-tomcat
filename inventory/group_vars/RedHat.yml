@@ -5,4 +5,4 @@ additional_packages:
 - tomcat-admin-webapps
 - destination: /usr/share/tomcat/webapps/gameoflife.war
 
-- user_management: /usr/share/tomcat/conf/tomcat-users.xml
+- management: /usr/share/tomcat/conf/tomcat-users.xml
