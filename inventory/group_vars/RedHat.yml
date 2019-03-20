@@ -1,0 +1,5 @@
+---
+pack_name: tomcat
+additional_packages:
+- tomcat-webapps
+- tomcat-admin-webapps
